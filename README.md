@@ -74,17 +74,3 @@ The stock market prediction project aims to forecast stock prices based on histo
    python knn.py
    python lstm.py
    ```
-
-3. **Compare Results**: Each script will output predictions and save plots comparing actual vs. predicted prices.
-
-## Results
-
-Each model's performance can be evaluated based on metrics such as Mean Squared Error (MSE) or Mean Absolute Error (MAE). LSTM may perform better on datasets with long-term dependencies, while Random Forest or Linear Regression could work well on simpler, short-term datasets.
-
-| Model            | Mean Squared Error (MSE) | R-squared Eroor           |
-|------------------|--------------------------|---------------------------|
-| Average          | 12.7570                  | 0.9170                    |
-| Linear Regression| 1.0646                   | 1.0000                    |
-| Random Forest Regression  | 1.1764          | 1.0000                    |
-| K-Nearest Neighbors (KNN) | 32.6488         | 0.5949                    |
-| LSTM             | 285.0629                 | -                         |
