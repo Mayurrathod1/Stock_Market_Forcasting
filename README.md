@@ -11,10 +11,9 @@ This project explores various methods for predicting stock prices using historic
   - [Linear Regression](#linear-regression)
   - [Random Forest](#random-forest)
   - [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn)
-  - [Long Short-Term Memory (LSTM)](#long-short-term-memory-lstm)
+  - [AutoRegressive Integrated Moving Average (ARIMA)](#AutoRegressive-Integrated-Moving-Average-arima)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Results](#results)
 
 ## Project Overview
 
