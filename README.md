@@ -1,7 +1,7 @@
 
 # Stock Market Prediction
 
-This project explores various methods for predicting stock prices using historical data. By employing five different approaches—Average, Linear Regression, Random Forest, K-Nearest Neighbors (KNN), and Long Short-Term Memory (LSTM) neural networks—the goal is to develop and compare models to understand their strengths and weaknesses in forecasting stock prices.
+This project explores various methods for predicting stock prices using historical data. By employing five different approaches—Average, Linear Regression, Random Forest, K-Nearest Neighbors (KNN), and AutoRegressive Integrated Moving Average (ARIMA) neural networks—the goal is to develop and compare models to understand their strengths and weaknesses in forecasting stock prices.
 
 ## Table of Contents
 
@@ -37,9 +37,9 @@ The stock market prediction project aims to forecast stock prices based on histo
 
 **Description:** The K-Nearest Neighbors algorithm predicts the stock price by finding the K most similar historical data points (neighbors) and averaging their prices. KNN is effective when there are strong patterns in past prices that can inform future prices.
 
-### 5. Long Short-Term Memory (LSTM)
+### 5. AutoRegressive Integrated Moving Average (ARIMA)
 
-**Description:** LSTM is a type of Recurrent Neural Network (RNN) that is especially useful for time-series prediction, as it can retain memory of previous states. This model is useful for capturing long-term dependencies in stock price data.
+**Description:** ARIMA is a statistical model used for time-series forecasting that combines autoregression (AR), differencing (I), and moving averages (MA). It is particularly effective in capturing trends and seasonality in stock price data. ARIMA works by analyzing past price movements and generating forecasts based on the relationships between past observations, residual errors, and trends, making it ideal for medium-term predictions.
 
 ## Setup
 
@@ -65,11 +65,3 @@ The stock market prediction project aims to forecast stock prices based on histo
 
 1. **Prepare the Data**: Ensure you have historical stock price data in CSV format. The dataset should include at least two columns: `Date` and `Close` (or `Adjusted Close`).
 
-2. **Run Each Model**: Execute the scripts for each model to see their individual predictions. For example:
-   ```bash
-   python average_model.py
-   python linear_regression.py
-   python random_forest.py
-   python knn.py
-   python lstm.py
-   ```
